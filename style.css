@@ -1,0 +1,42 @@
+:root {
+    --contact-info-icon-size: 1vw 1vw;
+}
+
+.content {
+    height: 80vw;
+    width: 100vw;
+    text-align: center;
+    background-color: cornsilk;
+}
+
+.signature {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-side img {
+    height: 2vw;
+    width: 2vw;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.signature__contact-info {
+    display: flex;
+    flex-direction: row;
+}
+
+.signature__contact-info img {
+    height: 1vw;
+    width: 1vw;
+}
